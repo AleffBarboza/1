@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Reservas</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  
+<nav id="menu">
+    <ul class="menu">
+    <li>
+        <a href="index.html">Principal</a>
+    </li>
+    <li>
+        <a href="Hospedagens.html">Hospedagens</a>
+    </li>
+    <li>
+        <a href="Reservas.html">Reservas</a>
+    </li>
+    <li>
+        <a href="Fale Conosco.html">Fale Conosco</a>
+    </li>
+    </ul>
+  </nav>
+  <figure>
+      <img src="logo.png" alt="Tecnologias Web: HTML, CSS e JavaScript">
+      <h1 style='color:#0a5a11'>Recanto Da Natureza</h1>
+  <figure> 
+  
+<form>
+  <fieldset id="usuario"><legend>Indentificação do Usuário</legend> 
+    <p>Nome: <input type="text" name="tNome" id="CNome" size="20" maxlength="40" placeholder="Nome Completo"/></p>
+    <p>Senha: <input type="password" name="tSenha" id="cSenha" size="20" maxlength="20" placeholder="Dígite Sua Senha"/></p>
+    <p>E-mail: <input type="email" name="tMail" id="cMail" size="20" maxlength="40" placeholder="E-mail"/></p>
+       <fieldset id="sexo"><legend>Sexo</legend>
+       <input type="radio" name="tSexo" id="cMasc"/> Masculino<br/>
+       <input type="radio" name="tSexo" id="cFem"/> Feminino</fieldset>
+    <p>Data de Nascimento:<input type="date" name="tNasc" id="cNasc"/></p>
+</fieldset>
+  
+<fieldset id="endereco"><legend>Endereço do Usuário</legend>
+      Endereço: <input type="text" name="tEndereco" id="cRua" size="20" maxlength="40" placeholder="Nome da Rua"/></p>
+      Número: <input type="number" name="tNum" id="cNum" size="20" maxlength="40" placeholder="Numero da Casa"/></p>
+      Estado: <input type="text" name="tEst" id="cEst" size="20" maxlength="40" placeholder="Estado"/></p>
+      Cidade: <input type="text" name="tNome" id="cNome" size="20" maxlength="40" placeholder="Cidade"/></p>
+</fieldset>   
+  
+<fieldset id="msg"><legend>Mensagem do Usuário</legend>  
+      <p><label for="cMsg">Mensagem</label>
+      <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Deixe aqui sua mensagem"></textarea></p>
+</fieldset>
+ 
+<fieldset id="pedido"><legend>Reservas</legend>
+  <input type="radio" name="tQnorm" id="cQnorm"/> Quarto Normal<br/>
+  <input type="radio" name="tQhidro" id="cQhidro"/> Quarto Hidro<br/>
+  <input type="radio" name="tQfami" id="cQfami"/> Quarto Família<br/>
+  <input type="radio" name="tQprem" id="cQprem"/> Quarto Premium<br/>
+  </fieldset> 
+    
+  
+  <input type="submit" value="Reservar"/>
+</form>
+
+  </body>
+
+</html>
